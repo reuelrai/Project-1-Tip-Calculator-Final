@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: auto; /* Adjust height to fit content */
+    width: 420px;
+    background: lightblue;
+    border-radius: 16px;
+    padding: 20px 30px;
+}
+
+.container h1 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.container .billing {
+    width: 100%;
+    margin-bottom: 20px; /* Add space below each billing section */
+}
+
+.container .billing label,
+.container .billing input,
+.container .billing #calculate {
+    display: block;
+    margin-bottom: 10px; /* Add space below each element */
+}
+
+.container .billing input {
+    width: 100%;
+    padding: 8px; /* Add padding inside the input fields */
+}
+
+.container .billing #calculate {
+    color: white;
+    background-color: rgb(3, 237, 3);
+    width: 100%;
+    padding: 10px; /* Add padding to the button */
+    font-size: 20px;
+}
